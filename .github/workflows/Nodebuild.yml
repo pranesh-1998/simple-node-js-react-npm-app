@@ -27,7 +27,7 @@ jobs:
       - name: Archive artifact
         uses: actions/upload-artifact@v2
         with:
-          name: my-artifact
+          name: artifact
           path: artifact.zip
 
     
